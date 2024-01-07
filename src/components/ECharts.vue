@@ -4,13 +4,13 @@
 
 <style>
 .echarts {
-  width: 600px;
-  height: 400px;
+  width: 100%;
+  height: 100%;
 }
 </style>
 
 <script>
-import echarts from 'echarts/lib/echarts'
+import * as echarts from 'echarts/lib/echarts'
 import debounce from 'lodash/debounce'
 import { addListener, removeListener } from 'resize-detector'
 
